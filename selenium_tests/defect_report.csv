@@ -1,0 +1,38 @@
+Test Case ID,Username,Password,Expected Result,Status,Defect Description,Screenshot
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+2025-10-30 16:43:05,test_invalid_login,"self = <test_login_invalid.TestInvalidLogin object at 0x00000243E2F76250>
+
+    def test_invalid_login(self):
+>       driver = self.driver
+E       AttributeError: 'TestInvalidLogin' object has no attribute 'driver'
+
+test_login_invalid.py:8: AttributeError",screenshot_test_invalid_login.png
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+2025-10-30 16:43:56,test_invalid_login,"self = <test_login_invalid.TestInvalidLogin object at 0x000001ADE5543220>
+
+    def test_invalid_login(self):
+>       driver = self.driver
+E       AttributeError: 'TestInvalidLogin' object has no attribute 'driver'
+
+test_login_invalid.py:8: AttributeError",screenshot_test_invalid_login.png
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+TC001,student,Password123,Redirect to https://practicetestautomation.com/logged-in-successfully/,Pass,,
+2025-10-30 17:20:40,test_invalid_login,"❌ Defect: Expected 'Invalid credentials!', got 'Your username is invalid!'
+assert 'Your username is invalid!' == 'Invalid credentials!'
+  
+  - Invalid credentials!
+  + Your username is invalid!",screenshots\test_invalid_login_20251030_172039.png
+2025-10-30 18:42:54,test_invalid_login,"❌ Defect: Expected 'Wrong Message!', got 'Your username is invalid!'
+assert 'Your username is invalid!' == 'Wrong Message!'
+  
+  - Wrong Message!
+  + Your username is invalid!",screenshots\test_invalid_login_20251030_184253.png
